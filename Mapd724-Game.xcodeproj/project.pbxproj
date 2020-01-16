@@ -15,6 +15,14 @@
 		8003BF9B23CFDE4300E986CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8003BF9923CFDE4300E986CA /* Main.storyboard */; };
 		8003BF9D23CFDE4500E986CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8003BF9C23CFDE4500E986CA /* Assets.xcassets */; };
 		8003BFA023CFDE4500E986CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8003BF9E23CFDE4500E986CA /* LaunchScreen.storyboard */; };
+		8003BFAB23CFE41700E986CA /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8003BFA823CFE41700E986CA /* yay.mp3 */; };
+		8003BFAC23CFE41700E986CA /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8003BFA923CFE41700E986CA /* thunder.mp3 */; };
+		8003BFAD23CFE41700E986CA /* engine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8003BFAA23CFE41700E986CA /* engine.mp3 */; };
+		8003BFB223CFEDDD00E986CA /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003BFB123CFEDDD00E986CA /* GameProtocol.swift */; };
+		8003BFB423CFEE5900E986CA /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003BFB323CFEE5900E986CA /* GameObject.swift */; };
+		8003BFB623CFF20400E986CA /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003BFB523CFF20400E986CA /* Plane.swift */; };
+		8003BFB823CFFAE400E986CA /* island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003BFB723CFFAE400E986CA /* island.swift */; };
+		8003BFBA23D00AD700E986CA /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003BFB923D00AD700E986CA /* Cloud.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,15 @@
 		8003BF9C23CFDE4500E986CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8003BF9F23CFDE4500E986CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8003BFA123CFDE4500E986CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8003BFA823CFE41700E986CA /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
+		8003BFA923CFE41700E986CA /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunder.mp3; sourceTree = "<group>"; };
+		8003BFAA23CFE41700E986CA /* engine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = engine.mp3; sourceTree = "<group>"; };
+		8003BFAF23CFE48400E986CA /* Dock51.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dock51.ttf; sourceTree = "<group>"; };
+		8003BFB123CFEDDD00E986CA /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
+		8003BFB323CFEE5900E986CA /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		8003BFB523CFF20400E986CA /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		8003BFB723CFFAE400E986CA /* island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = island.swift; sourceTree = "<group>"; };
+		8003BFB923D00AD700E986CA /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +77,9 @@
 		8003BF8E23CFDE4300E986CA /* Mapd724-Game */ = {
 			isa = PBXGroup;
 			children = (
+				8003BFB023CFE64700E986CA /* Objects */,
+				8003BFAE23CFE47300E986CA /* Fonts */,
+				8003BFA723CFE3E800E986CA /* Audio Assets */,
 				8003BF8F23CFDE4300E986CA /* AppDelegate.swift */,
 				8003BF9123CFDE4300E986CA /* GameScene.sks */,
 				8003BF9323CFDE4300E986CA /* Actions.sks */,
@@ -71,6 +91,36 @@
 				8003BFA123CFDE4500E986CA /* Info.plist */,
 			);
 			path = "Mapd724-Game";
+			sourceTree = "<group>";
+		};
+		8003BFA723CFE3E800E986CA /* Audio Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8003BFA923CFE41700E986CA /* thunder.mp3 */,
+				8003BFAA23CFE41700E986CA /* engine.mp3 */,
+				8003BFA823CFE41700E986CA /* yay.mp3 */,
+			);
+			path = "Audio Assets";
+			sourceTree = "<group>";
+		};
+		8003BFAE23CFE47300E986CA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8003BFAF23CFE48400E986CA /* Dock51.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8003BFB023CFE64700E986CA /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				8003BFB123CFEDDD00E986CA /* GameProtocol.swift */,
+				8003BFB323CFEE5900E986CA /* GameObject.swift */,
+				8003BFB523CFF20400E986CA /* Plane.swift */,
+				8003BFB723CFFAE400E986CA /* island.swift */,
+				8003BFB923D00AD700E986CA /* Cloud.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,10 +181,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8003BFAB23CFE41700E986CA /* yay.mp3 in Resources */,
+				8003BFAC23CFE41700E986CA /* thunder.mp3 in Resources */,
 				8003BF9B23CFDE4300E986CA /* Main.storyboard in Resources */,
 				8003BF9223CFDE4300E986CA /* GameScene.sks in Resources */,
 				8003BF9D23CFDE4500E986CA /* Assets.xcassets in Resources */,
 				8003BFA023CFDE4500E986CA /* LaunchScreen.storyboard in Resources */,
+				8003BFAD23CFE41700E986CA /* engine.mp3 in Resources */,
 				8003BF9423CFDE4300E986CA /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,8 +200,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8003BF9623CFDE4300E986CA /* GameScene.swift in Sources */,
+				8003BFB223CFEDDD00E986CA /* GameProtocol.swift in Sources */,
 				8003BF9823CFDE4300E986CA /* GameViewController.swift in Sources */,
 				8003BF9023CFDE4300E986CA /* AppDelegate.swift in Sources */,
+				8003BFB823CFFAE400E986CA /* island.swift in Sources */,
+				8003BFBA23D00AD700E986CA /* Cloud.swift in Sources */,
+				8003BFB623CFF20400E986CA /* Plane.swift in Sources */,
+				8003BFB423CFEE5900E986CA /* GameObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GarimaPrasher.Mapd724-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,7 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GarimaPrasher.Mapd724-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
